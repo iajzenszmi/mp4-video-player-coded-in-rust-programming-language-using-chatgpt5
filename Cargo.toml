@@ -1,0 +1,11 @@
+[package]
+name = "rust-mp4-player"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+gstreamer = "0.23"
+gstreamer-video = "0.23"
+glib = "0.19"
